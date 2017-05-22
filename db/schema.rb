@@ -12,7 +12,7 @@
 
 ActiveRecord::Schema.define(version: 20170518175148) do
 
-  create_table "excercises", force: :cascade do |t|
+  create_table "exercises", force: :cascade do |t|
     t.string   "title"
     t.string   "description"
     t.datetime "created_at",  null: false
@@ -31,8 +31,9 @@ ActiveRecord::Schema.define(version: 20170518175148) do
     t.string   "name"
     t.string   "email"
     t.string   "password_digest"
-    t.datetime "created_at",      null: false
-    t.datetime "updated_at",      null: false
+    t.integer  "role",            default: 0
+    t.datetime "created_at",                  null: false
+    t.datetime "updated_at",                  null: false
     t.index ["email"], name: "index_users_on_email", unique: true
   end
 

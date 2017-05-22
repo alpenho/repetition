@@ -1,4 +1,4 @@
-class Excercise < ApplicationRecord
+class Exercise < ApplicationRecord
 	has_many :questions
 
 	validates	:title, presence: true
