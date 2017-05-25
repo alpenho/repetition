@@ -1,24 +1,33 @@
-# README
+# Repetition
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Repetition is the father of learning. This is web app that can:
+- [x] Sign in, log in and etc (authorization)
+- [ ] Create exercise and question (Only administrator)
+- [ ] Have user do the exercise and answer all question
+- [ ] Present data in grahpic in dashboard user (in the future)
 
-Things you may want to cover:
+## Requirement
+- Rails 5
+- Bootstrap
 
-* Ruby version
+## To Run The App
+- Install bundler (if you not have that)
+```ruby
+gem install bundler
+```
 
-* System dependencies
+- Run bunlder
+```ruby
+bundle install
+```
 
-* Configuration
+- Run database migration
+```ruby
+rails db:create
+rails db:migrate
+```
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- Start rails server (change the port if you want, i set it to 5000)
+```ruby
+rails s -p 5000
+```
