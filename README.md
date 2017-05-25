@@ -9,6 +9,7 @@ Repetition is the father of learning. This is web app that can:
 ## Requirement
 - Rails 5
 - Bootstrap
+- MySQL (but in the mean time, i still using SQLite3)
 
 ## To Run The App
 - Install bundler (if you not have that)
