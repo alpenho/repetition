@@ -22,13 +22,17 @@ gem install bundler
 bundle install
 ```
 
-- Run database migration
+- Run database migration and seed
 ```ruby
 rails db:create
 rails db:migrate
+rails db:seed
 ```
 
 - Start rails server (change the port if you want, i set it to 5000)
 ```ruby
 rails s -p 5000
 ```
+
+- Sign in using generated user
+`email: admin@repetition.com, password: password`
