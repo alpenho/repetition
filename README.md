@@ -17,7 +17,7 @@ Repetition is the father of learning. This is web app that can:
 gem install bundler
 ```
 
-- Run bunlder
+- Run bundler
 ```ruby
 bundle install
 ```
